@@ -1,0 +1,12 @@
+.main{
+  width: 800px;
+  margin: auto;
+  background-color: aqua;
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  gap: 1rem;
+}

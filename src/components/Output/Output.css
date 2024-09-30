@@ -1,0 +1,44 @@
+.output{
+    display: flex;
+    gap: 0.6rem;
+    font-size: 1.3rem;
+    /* color:rgb(245, 136, 11); */
+    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 8, 217); 
+}
+.output p{
+    min-width: 12rem;
+}
+.output button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.2rem 0.3rem;
+    border: none;
+}
+.output button:nth-child(2){
+    background-color: rgb(153, 242, 9);
+    border: 1px solid rgb(67, 245, 13);
+    color: white;
+}
+.output button:nth-child(2):hover{
+    cursor: pointer;
+    background-color: rgb(6, 151, 223);
+    color: red;
+}
+.output button:last-child{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+}
+.output button:last-child:hover{
+    cursor: pointer;
+    background-color: white;
+    color: green;
+}
